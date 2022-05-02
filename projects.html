@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+<nav class="w-screen h-auto fixed backdrop-blur-md bg-black/80 flex items-center justify-between px-5 py-2  md:px-16 md:py-3 z-20">
+<div class="flex items-center">
+    <a href="index.html" class="flex items-center">
+    <img src="./assets/logo.png" alt="logo" class="h-10 md:h-20">
+    <p class=" md:text-2xl pl-2 text-white">Shubham<br>Infrastructure</p>
+    </a>
+</div>
+<div>
+    <ul class="hidden md:flex space-x-14 font-medium text-white">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <div>
+        <button onclick=openmenu()>
+           <span class="material-symbols-outlined text-white md:hidden">
+        menu
+        </span>
+    </button>
+    </div>
+</div>
+</nav>
+<!-- navbar -->
+<!-- mobile navbar -->
+<div class="fixed md:hidden bg-black/80 backdrop-blur-md z-10 text-white w-full text-center">
+ <div id="menu"  class="hidden">   
+    <button onclick=closemenu() class="pt-20">
+        <span class="material-symbols-outlined text-white">
+            close
+            </span>
+    </button>
+<ul class="pt-5 py-5 space-y-6">
+    <li><a href="./index.html" onclick=closemenu()>Home</a></li>
+    <li><a href="./projects.html"  onclick=closemenu()>Projects</a></li>
+    <li><a href="./about.html"  onclick=closemenu()>About</a></li>
+    <li><a href="./contact.html"  onclick=closemenu()>Contact</a></li>
+</ul>
+<div onclick=closemenu() class="z-0 absolute w-screen h-screen bg-black/50"></div>
+</div>
+</div>
+<!-- mobile navbar  -->
+
+<!-- header -->
+    <div class="bg-black/80 md:bg-black/50 h-96 overflow-hidden">
+        <img src="./assets/building.jpg" alt="" class="w-screen h-96 object-cover mix-blend-darken">
+        <div class="absolute top-20 md:top-40 px-5 md:px-20 md:w-3/5 text-white">
+            <h1 class="underline text-2xl md:text-4xl  underline-offset-8 decoration-4 decoration-red-500">
+                Shubham Nagari
+            </h1>
+            <p class="mt-3 text-sm md:text-base">&quot;Shubham Nagari&quot; is one of the best township project by “Shubham Infrastructure”, a leading
+                Real Estate company. Located at Oros- Khariewadi. Oros is a town and district headquarters of
+                the Sindhudurg District. Sindhudurg is the best destination for holidays in the summer &amp; rainy
+                seasons.</p>
+                <a href="./index.html" class="text-xs text-gray-400 hover:text-white"> 
+                    Vist home page for more detail's
+                </a>
+        </div>
+        </div>
+<!-- header -->
+<!-- rooms -->
+        <div class="px-5 md:px-20 py-10 md:py-20">
+            <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-blue-500">Property</h1>
+            <p class="mt-3 text-sm md:text-base">Book a free property evalution with us today!</p>
+               <p class="mt-3 text-sm md:text-base"> Connectivity from Shubham Nagari- Transportation, Offices, Bank &amp; ATM, Hospitals &amp;
+                healthcare, Schools, Restaurant, hotels &amp; (Delete this clubs, Shopping malls), Religious places,
+                Market etc. Book your flat today with Special offer.</p>
+            <div class="mt-3">
+            <h1 class="text-base md:text-xl font-bold">1RK</h1>
+            <div class="w-full h-auto md:h-80 bg-gray-100 rounded-xl md:flex items-center justify-between px-5 py-5 md:px-20 shadow-xl">
+                <div>
+                    <img src="./assets/My project (2).png" alt="" class="h-40 md:h-80">
+                </div>
+                <div class="md:w-1/2">
+                    <p>
+                        Buy a home with breathtaking views, refreshing air, calm and gated colony in the beauty of
+kokan&#39;s? with 24hrs. security. Water, Solar lights, Attractive entrance gate, garden, Jogging
+track, Temple, Rainwater harvesting,Internal tar roads with superior connectivity &amp; ZERO
+Compromise!
+                    </p>
+                    <p>Book a free property evalution with us today!</p>
+                <a href="" class="bg-red-500 px-3 py-1 rounded text-white">BOOK NOW!</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-5">
+            <h1 class="text-base md:text-xl font-bold">1BHK</h1>
+            <div class="w-full h-auto md:h-80 bg-gray-100 rounded-xl md:flex items-center justify-between px-5 py-5 md:px-20  shadow-xl">
+                <div class="md:w-1/2">
+                    <p>
+                        Right property in the beauty of NATURE.
+                        
+                    </p>
+                    <p>Experience aboslute peace and tranquility at Shubham Nagari. Being surrounded by nature,
+                        positive atmosphere that adds to our health &amp; well-being with all amenities. 24x7 Running
+                        water, Solar lights, Attractive entrance gate, garden, Jogging track, Temple, Rainwater
+                        harvesting,Internal tar roads with superior connectivity</p>
+                <a href="" class="bg-red-500 px-3 py-1 rounded text-white">BOOK NOW!</a>
+                </div>
+                <div>
+                    <img src="./assets/My project (1).png" alt="" class="h-40 md:h-80">
+                </div>
+            </div>
+        </div>
+        
+        </div>
+<!-- rooms -->
+<!-- pricsing -->
+<div class="py-10 px-5 md:py-20 md:px-20">
+    <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-green-500">Pricing</h1>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 mt-5 px-7 md:px-0">
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/1rk.png" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">1RK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">12 lakhs</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-5 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/1bhk.png" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">1BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">17 lakhs</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/wip.jpg" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">2BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">----</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/wip.jpg" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">3BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">----</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+</div>
+</div>
+<!-- pricsing -->
+<!-- GALLARY -->
+<div class="px-2 md:px-20 py-10 md:py-20">
+    <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-indigo-500">GALLARY</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-6 mt-5 pl-16 md:pl-0">
+        <img src="./assets/gallary/IMG-20170403-WA0000.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20170423-WA0005.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20170423-WA0006.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180428-WA0006.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180428-WA0008.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180428-WA0011.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180428-WA0014.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180509-WA0009.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180509-WA0012.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180509-WA0014.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180509-WA0015.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180608-WA0017.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180608-WA0019.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180608-WA0024.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180803-WA0012.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180803-WA0016.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180803-WA0022.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+        <img src="./assets/gallary/IMG-20180820-WA0030.jpg" alt=""  class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+</div>
+</div>
+<!-- GALLARY -->
+<!-- upcomming projects -->
+<div class="px-5 md:px-20 py-10 md:py-20">
+<h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-indigo-500">projects</h1>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-5">
+    <div class="bg-red-500 px-5 py-5 rounded text-white">
+        <h1 class="font-bold text-xl md:text-2xl">1.ONGOINGPROJECTS –</h1>
+<p class="text-sm md:text-base mt-2">Sai Shubham Appartment – A Residentional cum comer.projects ,
+    at Oras,Sindhudurg.</p>
+<p class="text-sm md:text-base mt-2">ShubhamNagari- A Township building project,At –Mumbai-Goa
+    highway,Oras, Sindhudurg.</p>
+</div>
+<div class="bg-blue-500 px-5 py-5 rounded text-white">
+    <h1 class="font-bold text-xl md:text-2xl">2.COMPLETED PROJECTS –</h1>
+<p class="text-sm md:text-base mt-2">KalakrutiAppartment- Aresidentional project, near Neral Railway station,
+    tal-karjat,dist- Raighad. Given possession in schedule time period with
+    Quality product.</p>
+<p class="text-sm md:text-base mt-2">ShubhamAppartment- A residentional project @phalthan- Bharamati..</p>
+</div>
+<div class="bg-gray-500 px-5 py-5 rounded text-white">
+    <h1 class="font-bold text-xl md:text-2xl">3.UP COMING PROJECTS-</h1>
+<p class="text-sm md:text-base mt-2">Shubham Heights –Residentional project @ J. B. Nagar, Andheri- East.</p>
+<p class="text-sm md:text-base mt-2">Shubhamcity- A Bunglow townships project @ Pali, Raighad District.</p>
+<p class="text-sm md:text-base mt-2">ShubhamNagari phase -2 –A bunglow township projects @ Oras-
+    sindhudurg.</p>
+<p class="text-sm md:text-base mt-2">Shubham spaces- a G+5 storey residentional and commercial project at
+    Kudal- sindhudurg.</p>
+</div>
+</div>
+</div>
+
+
+<!-- upcomming projects -->
+<!--footer-->
+<div class="bg-stone-900 px-5 py-5 md:px-20 md:py-10 text-white ">
+    <div class="flex items-center ">
+<img src="./assets/wlogo.png" alt="logo" class="h-10 md:h-20">
+<p class="text-sm md:text-2xl">Shubham<br>
+    Infrastructure</p>
+</div>
+<p class="mt-2 text-sm md:text-2xl text-gray-400">Let&#39;s find you together the place you deserve REPLACE &quot;Get the best flat at the best price! &quot;</p>
+<div class="md:flex mt-5 justify-between">
+<div class="space-y-2 text-sm md:text-base  md:w-1/2 md:space-y-10">
+<p>+91 8424-8453-44</p>
+<p>Address- Shubham Nagari, Off Mumbai- Goa Highway, Opp. Gangai Hotel, Khairewadi, Oros,
+    Taluka Kudal, District- Sindhdurg.</p>
+    <a href = "mailto:contact@shubhamnagari.com">Email - contact@shubhamnagari.com</a><br>
+    <div class="flex space-x-8 ">
+    <a href="https://www.facebook.com/Shubham-Nagari-101997754972702">FACEBOOK</a>
+    <a href="https://www.instagram.com/chandsiduiqi2020/?igshid=tml6e6gxx0dw">INSTAGRAM</a>
+    <a href="https://twitter.com/nagari_shubham">TWITTER</a></div>
+</div>
+<div class="px-5 mt-10 md:mt-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.025177299392!2d73.70578925871797!3d16.117872614618374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc011b3dee72def%3A0x9d229b1c3bf730b0!2sOros%20Market!5e0!3m2!1sen!2sin!4v1651069884792!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>                                                                                                                                                                                                                                                                  
+</div>
+</div>
+    <!--footer-->
+
+
+
+
+    <script>
+        function openmenu(){
+    document.getElementById('menu').classList.remove('hidden')
+        }
+        function closemenu(){
+            document.getElementById('menu').classList.add('hidden')
+        }
+    </script>
+</body>
+</html>

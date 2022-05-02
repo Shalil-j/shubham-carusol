@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="w-screen h-auto fixed backdrop-blur-md bg-black/80 flex items-center justify-between px-5 py-2  md:px-16 md:py-3 z-20">
+<div class="flex items-center">
+    <img src="./assets/logo.png" alt="logo" class="h-10 md:h-20">
+    <p class=" md:text-2xl pl-2 text-white">Shubham<br>Infrastructure</p>
+</div>
+<div>
+    <ul class="hidden md:flex space-x-14 font-medium text-white">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <div>
+        <button onclick=openmenu()>
+           <span class="material-symbols-outlined text-white md:hidden">
+        menu
+        </span>
+    </button>
+    </div>
+</div>
+</nav>
+<!-- navbar -->
+<!-- mobile navbar -->
+<div class="fixed md:hidden bg-black/80 backdrop-blur-md z-10 text-white w-full text-center">
+ <div id="menu"  class="hidden">   
+    <button onclick=closemenu() class="pt-20">
+        <span class="material-symbols-outlined text-white">
+            close
+            </span>
+    </button>
+<ul class="pt-5 py-5 space-y-6">
+    <li><a href="./index.html" onclick=closemenu()>Home</a></li>
+    <li><a href="./projects.html"  onclick=closemenu()>Projects</a></li>
+    <li><a href="./about.html"  onclick=closemenu()>About</a></li>
+    <li><a href="./contact.html"  onclick=closemenu()>Contact</a></li>
+</ul>
+<div onclick=closemenu() class="z-0 absolute w-screen h-screen bg-black/50"></div>
+</div>
+</div>
+<!-- mobile navbar  -->
+<!-- header -->
+<header class="relative mb-20"> 
+<img src="./assets/bg.jpg" alt="" class="h-96 md:h-auto object-cover">
+<div class="absolute top-[100px] md:top-[200px] px-5 md:px-20 md:flex">
+    <div>
+<p class="text-4xl md:text-7xl text-white uppercase">Fulfilling <span class="underline underline-offset-2  md:underline-offset-8 decoration-4 decoration-orange-500"><br>dream</span> of a <span class="underline underline-offset-2  md:underline-offset-8 decoration-4  decoration-sky-500"><br>living</span> in the <span class="underline underline-offset-2  md:underline-offset-8 decoration-4 decoration-green-500"><br>nature</span> own land...</p>
+<a href="#" class="text-xl text-white hover:border-b-4 border-red-500 -mt-3">Contact</a></div>
+<img src="./assets/card.jpg" alt="" class="rounded-xl h-80 mx-auto md:h-auto w-auto">
+</div>
+</header>
+<!-- header -->
+<!-- about -->
+<div class="mt-80 md:mt-0 md:pt-20">
+<h1 class="text-2xl md:text-5xl text-center p-2">Start living your best life in Kokan&#39;s NATURE.
+    <p class=" text-sm md:text-xl text-center">Experience absolute peace and tranquility at Shubham Nagari.</p>
+
+<div class="pt-10 md:flex md:px-20 md:pt-20">
+<div class="px-2 text-left md:w-4/5 md:px-3 pb-5">
+<h1 class="underline text-2xl  md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-orange-500">ABOUT</h1>
+<p class="text-sm md:text-xl pt-5">&quot;Shubham Nagari&quot; is one of the <span class="font-semibold">best township project by “Shubham Infrastructure”,</span> a leading
+    Real Estate company. Located at Oros- Khariewadi, Kudal, Sindhudurg &amp; Kudal Taluka, Sindhudurg District. Oros is a town and district headquarters of
+    the Sindhudurg District. Sindhudurg is the best destination for holidays in the summer &amp; rainy
+    seasons.</p>
+</div>
+<div>
+<img src="./assets/interior.jpg" alt="" class="rounded-md">
+</div>
+</div>
+</div>
+<!-- about -->
+<!-- mission and vision -->
+<div class="md:flex px-5 pt-10 md:pt-20 justify-center md:divide-x-2 divide-gray-400 md:px-20">
+<div class="md:w-1/2">
+<h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-red-500">VISION</h1>
+<p class="pt-5 text-sm md:text-xl">To set new standards of excellence in the service of providing a top-quality living. To maintain
+    leadership through innovation in the field of design, technology, and quality.</p>
+</div>
+<div class="md:w-1/2 md:pl-10">
+<h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-indigo-500">MISSION</h1>
+<ul class="pt-5 text-sm md:text-xl">
+    <li><span class="material-symbols-outlined">
+        bubble_chart
+        </span>Total customer satisfaction.</li>
+    <li><span class="material-symbols-outlined">
+        bubble_chart
+        </span>Fiber manual recordTrust and reliability.</li>
+    <li><span class="material-symbols-outlined">
+        bubble_chart
+        </span>Respect for the environment.</li>
+</ul>
+</div>
+</div>
+<!-- mission and vision -->
+<!-- quality -->
+<div class="pt-10 px-5 md:pt-20 md:px-20">
+<h1  class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-green-500">QUALITY ASSURANCE</h1>
+<p class="pt-5 text-sm md:text-xl"> Reputation and trust are the building blocks of long term success in the construction industry.
+    Assuring our customers &#39;good quality&#39; is, not just a business policy, but a business philosophy,
+    with us at Shubham Nagari. The only laboratory certified concrete and best quality construction
+    material are used. Qualified engineers and architects, trained site personnel, strict adherence
+    to schedules, and meticulous paper-work are the hallmarks of all our projects. </p>
+</div>
+<!-- quality -->
+<!-- locations -->
+<div class="pt-10 px-5 md:px-20 md:mt-20">
+    <h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-blue-500">LOCATIONS</h1>
+    <p class="pt-5 text-sm md:text-xl">Shubham Nagari is located at Oros on Mumbai - Goa Highway.</p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-5 items-center justify-center px-10">
+    <div>
+        <img src="./assets/malvan-beach-in-sindhudurg Cropped.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Malvan Beach/Fort 35 KM</p>
+    </div>
+    
+    <div class="">
+        <img src="./assets/trakarli.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Tarkarli Beach 40 KM</p>
+    </div>
+    
+    <div>
+        <img src="./assets/bhogve.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Bhogve Beach Niwati Fort 41 KM</p>
+    </div>
+    <div>
+        <img src="./assets/vengurla.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Vengurla Beach 41 KM</p>
+    </div>
+    
+    <div>
+        <img src="./assets/sindhudurg Cropped.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Sindhudurg Station 5 KM</p>
+    </div>
+    
+    <div class="">
+        <img src="./assets/chipi ap.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Chipi Airport 32 KM</p>
+    </div>
+    
+    <div>
+        <img src="./assets/mopa.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
+        <p>Mopa Intl. Airport 68 KM</p>
+    </div>
+    </div>
+
+</div>
+<!-- locations -->
+<!-- features -->
+<div class="pt-10 px-5 md:px-20 md:pt-20">
+<h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-purple-500">FEATURES</h1>
+<p class="text-sm md:text-xl pt-5">What would you call a ‘Better Life’? A life in which you are well-connected to your family and
+    your community.<br> When you are connected to all the places you care about and all the
+    destinations &amp; amenities that are important to you.</p>
+    <h1 class="text-xl md:text-2xl underline pt-5">SPECIAL FEATURES</h1>
+    <div class="md:flex mt-5 items-center justify-between">
+        <div class="md:flex md:space-x-5 md:w-1/2 ">
+            <div>
+                <ul class="uppercase space-y-2 md:space-y-10 text-sm md:font-semibold">
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-red-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        local_hospital
+                        </span>civil hospita(2km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-blue-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        water
+                        </span>sindhudurga lake(2km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-slate-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        castle
+                        </span>sindhudurga fort(30km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-orange-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        temple_hindu
+                        </span>ravalnath template(1km)</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="uppercase mt-2 md:mt-0 space-y-2 md:space-y-10 text-sm md:font-semibold">
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-green-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        school
+                        </span>school & college zone(done bosco high school 1km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-red-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        train
+                        </span>sindhudurga station(3km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-blue-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        surfing
+                        </span>tarkarli/devbaug beach(32km)</li>
+                    <li class="flex items-center"><span class="material-symbols-outlined bg-red-500 text-white md:text-3xl p-1 rounded-full mr-2 md:px-2 py-1">
+                        assured_workload
+                        </span>goverment office area(1.5km)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <img src="./assets/map.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- features -->
+<!-- highlights -->
+<div class="px-5 mt-10 md:px-20">
+<h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-yellow-500">HIGHLIGHTS</h1>
+<ul class="mt-5">
+    <li class="text-sm md:text-xl font-semibold">1) National highway Mumbai- goa touch property.
+        <p class="font-thin pt-1">- Buy a home with breathtaking views, refreshing air, calm and gated colony in the beauty of
+            kokan&#39;s (should be just kokan or kokan’s ….) with superior connectivity &amp; ZERO Compromise!</p>
+    </li>
+    
+  <li class="text-sm md:text-xl font-semibold mt-3">
+    2) All modern amenities available.
+        <p class="text-base font-thin pt-1">- All amenities to live a luxurious life with peace full ambience, refreshing air in the beauty of
+            kokan.</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        3) Garden flats, terrace flats available.???
+        <p class=" font-thin pt-1">- Shubham nagari offers you a wonderful garden flats, terrace flats to experience life in aboslute
+            peace and tranquility.</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        4) 24 hours availability of water and electricity.
+        <p class="font-thin pt-1">- Shubham nagari is surrounded by nature, positive atmosphere that adds to our health &amp; well-
+            being with all amenities. 24x7 Running water, Solar lights, Attractive entrance gate, garden,
+            Jogging track, Temple, Rainwater harvesting,Internal tar roads with superior connectivity</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        5) In oros 1st project which has entrance lobby space.
+        <p class=" font-thin pt-1">- The lobby is the first impression of the building, it&#39;s perceived to reflect the personality of its
+            owners and residents.</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        6) Childern garden space.
+        <p class=" font-thin pt-1">- Living in a good social environment increases the probability that a child will develop positive
+            social relationship. Kids and youngsters had enough space to move around freely and play
+            carefree.</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        7) All market place, banks, ATM, hospitals, schools, colleges nearby.
+        <p class=" font-thin pt-1">- Shubham Nagari is situated at a very near to banks, schools, hospitals, market place,
+            restaurants, ATMs, etc.</p>
+    </li>
+    <li class="text-sm md:text-xl font-semibold mt-3">
+        8) Sindhudurg railway station 1 KM from the project site.
+        <p class=" font-thin pt-1">- Ready to flats for sale in Oras, Kokan which offers superior connectivity &amp; ZERO Compromise.</p>
+    </li>
+</ul>
+</div>
+<!-- highlights -->
+<!-- amenities -->
+<div class="pt-10 px-5 md:pt-20 md:px-20">
+<h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-lime-500">AMENITIES</h1>
+<p class="mt-5 text-sm md:text-xl ">Unwind one lap at a time, uplift your mood, feel serene with those sweeping views of the
+    hill,breathtaking views, indulge your friends &amp; family. Like we said, there’s no better detox than
+    living at Shubham Nagari.</p>
+    <div class="mt-5 text-sm h-60 overflow-hidden flex p-5 bg-cyan-500 text-white items-center rounded-xl justify-between">
+        <div class="md:w-3/5 ">
+            <h1 class="md:text-2xl font-semibold ">Rainwater Harvesting</h1>
+            <p>- Rainwater harvesting is emerging as an intelligent option for water supply. Engineered system
+                combines natural processes and high technology to collect, store, and use the very best water
+                on earth, like to wash a clothes, for shower or wash the dishes, etc.</p>
+        </div>
+        <div>
+<img src="./assets/rh.png" alt="" class="hidden md:block">
+        </div>
+    </div>
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex p-5 bg-blue-800 text-white items-center rounded-xl justify-between">
+
+        <div>
+<img src="./assets/light.png" alt=""class="hidden md:block">
+        </div>
+        <div class="md:w-3/5 ">
+            <h1 class="md:text-2xl font-semibold ">Solar lights</h1>
+            <p>- The aim of solar light implementing is to generate solar electric energy for lighting system to
+                reduce energy consumption by making use of LED lighting technology.</p>
+        </div>
+    </div>
+
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex px-1 md:pl-5 bg-green-400 text-white items-center rounded-xl justify-between">
+        <div class="md:w-3/5 px-5">
+            <h1 class="md:text-2xl font-semibold ">Attractive entrance gate</h1>
+            <p>- The design of the entrance gate makes an important contribution to overall look as it&#39;s the
+                first thing that everyone sees, when they are walking or visiting you. It is the first impression of
+                the building, it&#39;s perceived to reflect the personality of its owners and residents.</p>
+        </div>
+        <div>
+<img src="./assets/gate.png" alt="" class="-mt-10 hidden md:block">
+        </div>
+    </div>
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex p-5 bg-blue-400 text-white items-center rounded-xl justify-between">
+
+        <div>
+<img src="./assets/garden.png" alt="" class="h-96 rotate-90 hidden md:block">
+        </div>
+        <div class="md:w-3/5  ">
+            <h1 class="md:text-2xl font-semibold ">Garden</h1>
+            <p>- A garden provides the opportunity to make a positive environmental impact. Kids and
+                youngsters had enough space to move around freely and play carefree.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex px-1 md:pl-5 bg-red-400 text-white items-center rounded-xl justify-between">
+        <div class="md:w-3/5 px-5">
+            <h1 class="md:text-2xl font-semibold ">Jogging track</h1>
+            <p>- Having jogging track in the residential area that who like to jog can do without having to go
+                out on the street to jog. The benefits of jogging include heart health, weight loss, and for many,
+                a longer life.</p>
+        </div>
+        <div>
+<img src="./assets/jogging.png" alt="" class="-mt-10 hidden md:block">
+        </div>
+    </div>
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex  bg-slate-400 text-white items-center rounded-xl justify-between">
+
+        <div>
+<img src="./assets/temple.png" alt="" class="h-96 mt-32 hidden md:block">
+        </div>
+        <div class="md:w-3/5 px-7 ">
+            <h1 class="md:text-2xl font-semibold ">Sai baba temple</h1>
+            <p>- Temple is an integral part of the Indian Society,to get positive viberations and benefits from
+                pooja.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 text-sm  h-60 overflow-hidden flex px-1 md:pl-5 bg-gray-800 text-white items-center rounded-xl justify-between">
+        <div class="md:w-3/5 px-5">
+            <h1 class="md:text-2xl font-semibold ">Internal tar road</h1>
+            <p>- Being surrounded by nature, positive atmosphere that adds to our health &amp; well-being with all
+                amenities. 24x7 Running water, Solar lights, Attractive entrance gate, garden, Jogging track,
+                Temple, Rainwater harvesting,Internal tar roads with superior connectivity</p>
+        </div>
+        <div>
+<img src="./assets/road.png" alt="" class="hidden md:block">
+        </div>
+    </div>
+    <h1 class="mt-5 text-sm md:text-xl font-semibold mb-20">- All amenities to live a luxurious life with peace full ambience, refreshing air in the beauty of
+        kokan.</h1>
+</div>
+<!-- amenities -->
+<!-- rooms -->
+
+<div class="px-5 pb-10 md:px-20 md:mb-20">
+    <h1 class="underline text-2xl md:text-4xl underline-offset-8 decoration-4underline-offset-8 decoration-4 decoration-cyan-500">OUR PROJECTS</h1>
+    <div class="mt-5 hidden md:block">
+    <iframe width="1150" height="400" src="https://www.youtube.com/embed/3KpluMUgQfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="mt-5 md:hidden">
+    <iframe width="300" height="150" src="https://www.youtube.com/embed/3KpluMUgQfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="mt-3 text-sm md:text-base font-semibold">To know more click on the <a href="#" class="text-red-700 hover:border-b-2 border-gray-600">link</a></p>
+</div>
+<!-- rooms -->
+<!-- footer -->
+<div class="bg-stone-900 px-5 py-5 md:px-20 md:py-10 text-white ">
+    <div class="flex items-center ">
+<img src="./assets/wlogo.png" alt="logo" class="h-10 md:h-20">
+<p class="text-sm md:text-2xl">Shubham<br>
+    Infrastructure</p>
+</div>
+<p class="mt-2 text-sm md:text-2xl text-gray-400">Let&#39;s find you together the place you deserve REPLACE &quot;Get the best flat at the best price! &quot;</p>
+<div class="md:flex mt-5 justify-between">
+<div class="space-y-2 text-sm md:text-base  md:w-1/2 md:space-y-10">
+<p>+91 8424-8453-44</p>
+<p>Address- Shubham Nagari, Off Mumbai- Goa Highway, Opp. Gangai Hotel, Khairewadi, Oros,
+    Taluka Kudal, District- Sindhdurg.</p>
+    <a href = "mailto:contact@shubhamnagari.com">Email - contact@shubhamnagari.com</a><br>
+    <div class="flex space-x-8 ">
+    <a href="https://www.facebook.com/Shubham-Nagari-101997754972702">FACEBOOK</a>
+    <a href="https://www.instagram.com/chandsiduiqi2020/?igshid=tml6e6gxx0dw">INSTAGRAM</a>
+    <a href="https://twitter.com/nagari_shubham">TWITTER</a></div>
+</div>
+<div class="px-5 mt-10 md:mt-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.025177299392!2d73.70578925871797!3d16.117872614618374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc011b3dee72def%3A0x9d229b1c3bf730b0!2sOros%20Market!5e0!3m2!1sen!2sin!4v1651069884792!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>                                                                                                                                                                                                                                                                  
+</div>
+</div>
+<!-- footer -->
+
+
+<script>
+    function openmenu(){
+document.getElementById('menu').classList.remove('hidden')
+    }
+    function closemenu(){
+        document.getElementById('menu').classList.add('hidden')
+    }
+</script>
+
+
+</body>
+</html>
+
+
+
+<!-- https://shubham-infrastructure.netlify.app -->
