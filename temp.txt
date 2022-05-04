@@ -92,3 +92,139 @@
         kokan.</h1>
 </div>
 <!-- amenities -->
+
+
+
+
+project.html
+<!-- header -->
+    <div class="bg-black/80 md:bg-black/50 h-96 overflow-hidden">
+        <img src="./assets/building.jpg" alt="" class="w-screen h-[700px] object-cover mix-blend-darken">
+        <div class="absolute top-20 md:top-40 px-5 md:px-20 md:w-3/5 text-white">
+            <h1 class="underline text-2xl md:text-4xl  underline-offset-8 decoration-4 decoration-red-500">
+                Shubham Nagari
+            </h1>
+            <p class="mt-3 text-sm md:text-base">&quot;Shubham Nagari&quot; is one of the best township project by “Shubham Infrastructure”, a leading
+                Real Estate company. Located at Oros- Khariewadi. Oros is a town and district headquarters of
+                the Sindhudurg District. Sindhudurg is the best destination for holidays in the summer &amp; rainy
+                seasons.</p>
+                <a href="./index.html" class="text-xs text-gray-400 hover:text-white"> 
+                    Vist home page for more detail's
+                </a>
+        </div>
+        </div>
+<!-- header -->
+<!-- rooms -->
+        <div class="px-5 md:px-20 py-10 md:py-20">
+            <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-blue-500">Property</h1>
+            <p class="mt-3 text-sm md:text-base">Book a free property evalution with us today!</p>
+               <p class="mt-3 text-sm md:text-base"> Connectivity from Shubham Nagari- Transportation, Offices, Bank &amp; ATM, Hospitals &amp;
+                healthcare, Schools, Restaurant, hotels &amp; (Delete this clubs, Shopping malls), Religious places,
+                Market etc. Book your flat today with Special offer.</p>
+            <div class="mt-3">
+            <h1 class="text-base md:text-xl font-bold">1RK</h1>
+            <div class="w-full h-auto md:h-80 bg-gray-100 rounded-xl md:flex items-center justify-between px-5 py-5 md:px-20 shadow-xl">
+                <div>
+                    <img src="./assets/My project (2).png" alt="" class="h-40 md:h-80">
+                </div>
+                <div class="md:w-1/2">
+                    <p>
+                        Buy a home with breathtaking views, refreshing air, calm and gated colony in the beauty of
+kokan&#39;s? with 24hrs. security. Water, Solar lights, Attractive entrance gate, garden, Jogging
+track, Temple, Rainwater harvesting,Internal tar roads with superior connectivity &amp; ZERO
+Compromise!
+                    </p>
+                    <p>Book a free property evalution with us today!</p>
+                <a href="" class="bg-red-500 px-3 py-1 rounded text-white">BOOK NOW!</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-5">
+            <h1 class="text-base md:text-xl font-bold">1BHK</h1>
+            <div class="w-full h-auto md:h-80 bg-gray-100 rounded-xl md:flex items-center justify-between px-5 py-5 md:px-20  shadow-xl">
+                <div class="md:hidden">
+                    <img src="./assets/My project (1).png" alt="" class="h-40 md:h-80">
+                </div>
+                <div class="md:w-1/2">
+                    <p>
+                        Right property in the beauty of NATURE.
+                        
+                    </p>
+                    <p>Experience aboslute peace and tranquility at Shubham Nagari. Being surrounded by nature,
+                        positive atmosphere that adds to our health &amp; well-being with all amenities. 24x7 Running
+                        water, Solar lights, Attractive entrance gate, garden, Jogging track, Temple, Rainwater
+                        harvesting,Internal tar roads with superior connectivity</p>
+                <a href="" class="bg-red-500 px-3 py-1 rounded text-white">BOOK NOW!</a>
+                </div>
+                <div class="hidden md:flex">
+                    <img src="./assets/My project (1).png" alt="" class="h-40 md:h-80">
+                </div>
+            </div>
+        </div>
+        
+        </div>
+<!-- rooms -->
+<!-- pricsing -->
+<div class="py-10 px-5 md:py-20 md:px-20">
+    <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-green-500">Pricing</h1>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 mt-5 px-7 md:px-0">
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/1rk.png" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">1RK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">12 lakhs</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-5 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/1bhk.png" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">1BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">17 lakhs</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/wip.jpg" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">2BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">----</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+
+<div class="flex-col  border-2 border-gray-200 items-center h-auto w-60 rounded-md">
+    <div class="h-52 overflow-hidden">
+        <img src="./assets/wip.jpg" alt="" class="object-cover rounded-md">
+    </div>
+    <div class="text-center py-4">
+        <p class="font-bold">3BHK</p>
+        <p>Starting from</p>
+        <p class="text-xl underline-offset-1 underline">----</p>
+        <button class="text-sm mt-3 text-white rounded bg-red-500 px-2 py-1">
+            Contact Now!
+        </button>
+    </div>
+</div>
+</div>
+</div>
+<!-- pricsing -->
