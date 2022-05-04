@@ -120,11 +120,11 @@
 
     <h1 class="text-2xl font-bold uppercase text-center pt-5">floor plans</h1>
     <div class="grid grid-cols-1 md:grid-cols-2">
-        <img src="./assets//samrath-plan1.png" alt="">
-        <img src="./assets//samrath-plan2.png" alt="">
+        <img src="./assets//samrath-plan1.png" alt="" class="md:h-80">
+        <img src="./assets//samrath-plan2.png" alt="" class="md:h-80">
     </div>
 
- <div class="md:flex justify-between">
+ <div class="md:flex justify-between mt-5">
 <div>
 <h1 class="text-2xl uppercase">SPECIAL features</h1>
 <div class="md:flex md:space-x-5 md:w-1/2 mt-5">
@@ -349,18 +349,18 @@
             </span>
         </button>
     
-    <div id="detail2" class="hidden">
+    <div id="detail2" class="hidden transition duration-300">
     <!-- ********************************** -->
 
 
     <h1 class="text-2xl font-bold uppercase text-center pt-5">floor plans</h1>
     <div class="grid grid-cols-1 md:grid-cols-2">
-        <img src="./assets/sai-pan1.png" alt="">
-        <img src="./assets/sai-pan2.png" alt="">
+        <img src="./assets/sai-pan1.png" alt="" class="md:h-80">
+        <img src="./assets/sai-pan2.png" alt="" class="md:h-80">
     </div>
 
 
-    <div class="md:flex justify-between">
+    <div class="md:flex justify-between mt-5">
         <div>
         <h1 class="text-2xl uppercase">SPECIAL features</h1>
         <div class="md:flex md:space-x-5 md:w-1/2 mt-5">
@@ -588,11 +588,11 @@
 
     <h1 class="text-2xl font-bold uppercase text-center pt-5">floor plans</h1>
     <div class="grid grid-cols-1 md:grid-cols-2">
-        <img src="./assets/sadguru-plan.png" alt="">
-        <img src="./assets/sadguru-plan1.png" alt="">
+        <img src="./assets/sadguru-plan.png" alt="" class="md:h-80">
+        <img src="./assets/sadguru-plan1.png" alt="" class="md:h-80">
     </div>
 
-    <div class="md:flex justify-between">
+    <div class="md:flex justify-between mt-5">
         <div>
         <h1 class="text-2xl uppercase">SPECIAL features</h1>
         <div class="md:flex md:space-x-5 md:w-1/2 mt-5">
@@ -879,11 +879,13 @@
 
         function showmore1(){
             document.getElementById('detail1').classList.remove('hidden')
+            document.getElementById('detail1').classList.add('transition duration-700 ease-in')
             document.getElementById('btn1').classList.add('hidden')
             document.getElementById('detail2').classList.add('hidden')
             document.getElementById('detail3').classList.add('hidden')
             document.getElementById('btn2').classList.remove('hidden')
             document.getElementById('btn3').classList.remove('hidden')
+           
 
         }
         function showless1(){
