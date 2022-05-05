@@ -784,9 +784,10 @@
 
 <!-- sadguru krupa -->
 <!-- GALLARY -->
-<div class="px-2 md:px-20 py-10 md:py-20">
+<div class=" md:px-20 py-10 md:py-20">
     <h1 class="underline text-2xl md:text-4xl  underline-offset-8 uppercase decoration-4 decoration-indigo-500">GALLARY</h1>
-    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-6 mt-5 pl-16 md:pl-0">
+    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-6 mt-5 place-items-center md:pl-0">
+        <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.53 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
         <img src="./assets/gallary/IMG-20170403-WA0000.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
         <img src="./assets/gallary/IMG-20170423-WA0005.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
         <img src="./assets/gallary/IMG-20170423-WA0006.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
@@ -798,13 +799,41 @@
         <img src="./assets/gallary/IMG-20180509-WA0012.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
         <img src="./assets/gallary/IMG-20180509-WA0014.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
         <img src="./assets/gallary/IMG-20180509-WA0015.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180608-WA0017.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180608-WA0019.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180608-WA0024.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180803-WA0012.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180803-WA0016.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180803-WA0022.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
-        <img src="./assets/gallary/IMG-20180820-WA0030.jpg" alt=""  class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+</div>
+<div>
+    <button id="gallarybtn" onclick=showgallary() class=" text-center  text-center w-full mt-5">
+        <span   class="material-symbols-outlined text-6xl">
+            keyboard_arrow_down
+            </span>
+        </button>  
+</div>
+<div  id="gallary" class="hidden">
+<div class=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 mt-5 place-items-center gap-6 ">
+    <img src="./assets/gallary/IMG-20180608-WA0017.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/IMG-20180608-WA0019.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/IMG-20180608-WA0024.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/IMG-20180803-WA0012.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/IMG-20180803-WA0016.jpg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.47 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.48 PM (1).jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.48 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.49 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.51 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.53 PM (1).jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <img src="./assets/gallary/WhatsApp Image 2022-05-04 at 8.37.57 PM.jpeg" alt="" class="object-cover h-48 w-48 md:h-40 md:w-40 md:hover:scale-150 transition duration-300 md:hover:shadow-2xl">
+    <video controls muted>
+        <source src="./assets/gallary/WhatsApp Video 2022-05-04 at 8.37.45 PM.mp4" type="video/mp4">
+       
+        Your browser does not support the video tag.
+      </video>
+
+
+    </div>
+    <button onclick=hidegallary() class=" text-center  text-center w-full mt-5">
+        <span class="material-symbols-outlined text-6xl">
+            keyboard_arrow_up
+            </span>
+        </button>
 </div>
 </div>
 <!-- GALLARY -->
@@ -924,7 +953,14 @@
             document.getElementById('btn3').classList.remove('hidden')
         }
 
-
+        function showgallary() {
+            document.getElementById('gallary').classList.remove('hidden')
+            document.getElementById('gallarybtn').classList.add('hidden')
+        }
+        function hidegallary(){
+            document.getElementById('gallary').classList.add('hidden')
+            document.getElementById('gallarybtn').classList.remove('hidden')
+        }
 
 
 
