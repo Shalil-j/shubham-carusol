@@ -41,10 +41,10 @@
 </div>
 <div>
     <ul class="hidden md:flex space-x-14 font-medium text-white">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./index.php">Home</a></li>
+        <li><a href="./projects.php">Projects</a></li>
+        <li><a href="./about.php">About</a></li>
+        <li><a href="./contact.php">Contact</a></li>
     </ul>
     <div class="md:hidden">
         <button onclick=openmenu()>
@@ -65,10 +65,10 @@
             </span>
     </button>
 <ul class="pt-5 py-5 space-y-6">
-    <li><a href="./index.html" onclick=closemenu()>Home</a></li>
-    <li><a href="./projects.html"  onclick=closemenu()>Projects</a></li>
-    <li><a href="./about.html"  onclick=closemenu()>About</a></li>
-    <li><a href="./contact.html"  onclick=closemenu()>Contact</a></li>
+    <li><a href="./index.php" onclick=closemenu()>Home</a></li>
+    <li><a href="./projects.php"  onclick=closemenu()>Projects</a></li>
+    <li><a href="./about.php"  onclick=closemenu()>About</a></li>
+    <li><a href="./contact.php"  onclick=closemenu()>Contact</a></li>
 </ul>
 <div onclick=closemenu() class="z-0 absolute w-screen h-screen bg-black/50"></div>
 </div>
@@ -234,7 +234,7 @@
     
     <div>
         <img src="./assets/sindhudurg Cropped.jpg" alt="" class=" h-60 rounded-xl md:grayscale hover:grayscale-0 transition duration-300">
-        <p>Sindhudurg Station 5 KM</p>
+        <p>Sindhudurg Station 2 KM</p>
     </div>
     
     <div class="">
@@ -320,7 +320,7 @@
     <ul class="text-sm md:text-base">
         <li class="flex items-center capitalize"><span class="material-symbols-outlined text-3xl text-green-500">
             done
-            </span>G+3 RRC Frame Structure</li>
+            </span>G+3 RCC Frame Structure</li>
 
             <li class="flex items-center capitalize"><span class="material-symbols-outlined text-3xl text-green-500">
                 done
@@ -501,7 +501,7 @@
     <a href="https://twitter.com/nagari_shubham">TWITTER</a></div>
 </div>
 <div class="px-5 mt-10 md:mt-0">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.025177299392!2d73.70578925871797!3d16.117872614618374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc011b3dee72def%3A0x9d229b1c3bf730b0!2sOros%20Market!5e0!3m2!1sen!2sin!4v1651069884792!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3832.753996941136!2d73.70685964822769!3d16.13002174232708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fd6f816b4adf9f1!2s7J8M4PH4%2BVGF!5e0!3m2!1sen!2sin!4v1651753490059!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>                                                                                                                                                                                                                                                                  
 </div>
 </div>
