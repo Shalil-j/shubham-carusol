@@ -181,7 +181,15 @@
 
     $headers = "From: " . $email;
 
-    mail($to, $subject, $message, $headers);
+    if(mail($to, $subject, $message, $headers)){
+        ?>
+        <h1 style="color:green;font-weight: 900;">we will back to you soon</h1>
+        <?php
+    }else{
+      ?>
+      <h1 style="color:red;font-weight: 900;">Some thing Wents Wrong Please Contact us On office contact Number</h1>
+      <?php
+    }
   }
   ?>
 
